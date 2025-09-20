@@ -18,7 +18,7 @@ function generadordominios() {
 }        
 generadordominios()
 
-
+// Aqui utilizamos los "HACK"
 
 let pronoun2 = ['the', 'our'];
 let adj2 = ['great', 'big'];
