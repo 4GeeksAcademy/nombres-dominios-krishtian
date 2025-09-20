@@ -1,11 +1,23 @@
-import "bootstrap";
-import "./style.css";
+let pronoun = ['the', 'our'];
+let adj = ['great', 'big'];
+let noun = ['jogger', 'racoon'];
+let ext = ['.com', '.net', '.us', '.io'];
 
 
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
+function generadordominios() {
+  for (let a = 0; a < pronoun.length; a++){
+    for (let b = 0; b < adj.length; b++){
+      for (let c = 0; c < noun.length; c++){
+        for (let d = 0; d < ext.length; d++){
 
-window.onload = function() {
-  //write your code here
-  console.log("Hello Rigo from the console!");
-};
+          console.log(`${pronoun[a]} ${adj[b]} ${noun[c]} ${ext[d]}`)
+        } 
+      }
+    }
+  }
+}        
+generadordominios()
+
+
+
+
